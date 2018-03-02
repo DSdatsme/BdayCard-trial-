@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#777"
+    android:background="#fff"
     android:gravity="center_horizontal"
     android:orientation="vertical"
     tools:context="com.example.dsdatsme.myapplication.MainActivity">
@@ -24,7 +24,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="2">
+        android:layout_weight="2"
+        android:layout_margin="3dp"
+        android:background="#777"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp">
 
         <ImageView
             android:layout_width="67dp"
@@ -50,13 +54,17 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#FFF" />
+        android:background="#000" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:onClick="openDialer">
+        android:onClick="openDialer"
+        android:layout_margin="3dp"
+        android:background="#777"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -79,13 +87,17 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#FFF" />
+        android:background="#000" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:onClick="openBrowser">
+        android:onClick="openBrowser"
+        android:layout_margin="3dp"
+        android:background="#777"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp">
 
 
         <ImageView
@@ -111,13 +123,18 @@
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:background="#FFF" />
+        android:background="#000"
+        />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
-        android:onClick="openMapsIntent">
+        android:onClick="openMapsIntent"
+        android:layout_margin="3dp"
+        android:background="#777"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp">
 
         <ImageView
             android:layout_width="wrap_content"
