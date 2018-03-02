@@ -37,9 +37,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:onClick="openBrowser"
+            android:fontFamily="sans-serif-condensed"
             android:paddingLeft="35dp"
+            android:shadowColor="#00f"
             android:text="@string/udacity"
+            android:textColor="#fff"
+            android:textColorHighlight="#00f"
+            android:textSize="30dp"
             tools:hint="Title" />
     </LinearLayout>
 
@@ -66,6 +70,9 @@
             android:layout_gravity="center_vertical"
             android:paddingLeft="35dp"
             android:text="@string/_650_555_555"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:textStyle="italic"
             tools:hint="PhoneNumber" />
     </LinearLayout>
 
@@ -96,6 +103,8 @@
             android:onClick="openDialer"
             android:paddingLeft="35dp"
             android:text="@string/www_udacity_com"
+            android:textColorHighlight="#eee"
+            android:textSize="18dp"
             tools:hint="website" />
     </LinearLayout>
 
@@ -121,8 +130,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
+            android:fontFamily="serif-monospace"
             android:paddingLeft="35dp"
-            android:text="@string/_2465_latham_st_mountain_view_ca_94043" />
+            android:text="@string/_2465_latham_st_mountain_view_ca_94043"
+            android:textColor="#fff"
+            android:textSize="14dp" />
 
     </LinearLayout>
 
